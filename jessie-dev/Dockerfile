@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
 	libopencv-video-dev \
 	libopencv-highgui-dev \
 	libssl-dev \
+	wiringpi \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
