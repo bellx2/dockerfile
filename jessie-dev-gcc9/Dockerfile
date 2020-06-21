@@ -8,5 +8,5 @@ RUN cd /opt; tar -xjvf ~/raspberry-pi-gcc-binary/gcc-9.1.0-armhf-raspbian.tar.bz
 RUN rm -rf ~/raspberry-pi-gcc-binary/
 #RUN cp -R /opt/gcc-9.1.0/* /usr/
 RUN cp -R /opt/gcc-9.1.0/lib/* /usr/lib/arm-linux-gnueabihf/
-# RUN echo 'export LD_LIBRARY_PATH=/opt/gcc-9.1.0/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+RUN ln /dev/null /dev/raw1394
 CMD ["/bin/bash"]
