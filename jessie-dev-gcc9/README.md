@@ -8,6 +8,12 @@ VSCodeのExtensionを利用するためのモジュールです。
 /opt/gcc-9.1.0/
 cp -R /opt/gcc-9.1.0/lib/* /usr/lib/arm-linux-gnueabihf/
 
+## テストフレームワーク
+https://github.com/bats-core/bats-core
+
+doc
+https://github.com/bats-core/bats-core/blob/v1.2.0/README.md
+
 ## 注意
 
 + 純正jessieでないので、コンパイル後の動作確認注意
