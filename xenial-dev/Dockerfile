@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	nano \
-	build-essential git \
+	build-essential git cmake \
   libopencv-dev libopencv-video-dev libopencv-highgui-dev \
 	locales-all openssh-client ca-certificates \
 	&& apt-get clean \
